@@ -1,0 +1,23 @@
+.chat-message {
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.chat-message.user {
+  background-color: var(--primary-bg);
+  justify-content: flex-end;
+}
+
+.chat-message.bot {
+  background-color: var(--secondary-bg);
+}
+
+.message-content {
+  max-width: 80%;
+}
+
+.message-content p {
+  margin: 0;
+  white-space: pre-wrap; /* To respect newlines in the response */
+}

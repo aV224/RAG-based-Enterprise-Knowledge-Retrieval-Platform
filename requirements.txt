@@ -1,0 +1,18 @@
+# The web framework for our API
+fastapi
+
+# The server that will run our FastAPI application
+uvicorn[standard]
+
+# The official AWS SDK (Software Development Kit) for Python
+# This is how our code will talk to Bedrock
+boto3
+
+# For reading text from PDFs
+pypdf
+
+# For helper utilities like text splitting and vector store integration
+langchain
+
+# The vector store for similarity search (CPU version)
+faiss-cpu
